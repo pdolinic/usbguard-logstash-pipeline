@@ -1,4 +1,4 @@
-# secure-logstash-pipeline
+# usbguard-logstash-pipeline
 
 ## Input and Output ##
 
