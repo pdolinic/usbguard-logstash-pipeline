@@ -27,9 +27,11 @@ output {
 
 Filebeat needs to be configured appropriately: Usbguard can write to syslog, or to the default usbguard-log (which is chosen here as an example):
 
+```
 - type: log
   # Change to true to enable this input configuration.
   enabled: true
   # Paths that should be crawled and fetched. Glob based paths.
   paths:
     - /var/log/usbguard/usbguard-audit.log
+``
