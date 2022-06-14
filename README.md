@@ -34,4 +34,4 @@ Filebeat needs to be configured appropriately: Usbguard can write to syslog, or 
   # Paths that should be crawled and fetched. Glob based paths.
   paths:
     - /var/log/usbguard/usbguard-audit.log
-``
+```
